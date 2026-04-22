@@ -23,10 +23,6 @@ This app was built based on 2026.2.0.0. It targets .NET Framework 4.6.2 and was 
 [Download DotImage](https://www.atalasoft.com/BeginDownload/DotImageDownloadPage)
 
 
-### OmniPage
-Our OmniPageEngine has additional OCR resource requirements not included in our main SDK download (they would nearly double the size of the SDK download so we make them available separately to those who wish to use OmniPageEngine). They cna be found here: [INFO: OmniPageEngine Overview](https://www.atalasoft.com/kb2/KB/50396/INFO-OmniPageEngine-Overview)
-
-
 ### Using NuGet for SDK Dependencies
 We do publish our SDK components to NuGet. We have chosen to base the demo on local installed SDK because this leads to much smaller applications (NuGet packages add a lot of overhead due to the way they're packaged and deployed, and many of our demos -- including this one -- are often used to reproduce issues that need to be submitted to support. Apps that use NuGet are often significantly larger and run up against our maximum support case upload size)
 
